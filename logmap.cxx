@@ -12,7 +12,7 @@ int main(){
 	int plenght = Nend-Nskip;
 	double p[plenght];
 
-	for(double r=3; r <= 4; r += 1){
+	for(double r=1; r <= 4; r += 0.001){
 	   x=x0;
 	   for(int i=1; i <= Nskip; i++)
 		   x = r*x*(1-x);
